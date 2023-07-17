@@ -1,4 +1,10 @@
-on: [push]
+on:
+  schedule:
+    # Run at every 11th minute of the hour, 11 can be any value.
+    - cron:  '11 * * * *'
+  workflow_dispatch:
+  push:
+
 
 jobs:
   check-quality:
