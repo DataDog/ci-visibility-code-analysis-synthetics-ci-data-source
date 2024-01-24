@@ -19,6 +19,6 @@ jobs:
         with:
           dd_app_key: ${{ secrets.DD_APP_KEY_SYNTHETICS_ORG }}
           dd_api_key: ${{ secrets.DD_API_KEY_SYNTHETICS_ORG }}
-          dd_service: "ci-visibility-code-analysis-synthetics-ci-data-source"
+          dd_service: "ci-visibility-code-analysis-synthetics-data-source"
           dd_env: "github"
           dd_site: "datadoghq.com"
