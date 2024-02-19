@@ -1,3 +1,6 @@
+# code analysis synthetics test data 
+This repo is a fork of `demo-static-analysis-python` with some additional files so we can create our Code Analysis synthetics tests.
+
 # demo-static-analysis-python
 
 ## Setup
